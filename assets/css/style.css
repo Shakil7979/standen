@@ -22,6 +22,11 @@ ul li a,a{
 /*======================  Start Page  ======================*/
 
 
+.header_area img,
+.footer_area img {
+	width: 100%;
+}
+
 
 
 
