@@ -1,4 +1,5 @@
  
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 html{
 	font-size: 62.5%;
@@ -6,6 +7,7 @@ html{
 body{	
 	font-size: 1.6rem; 
 	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
 }
 h1,h2,h3,h4,h5,h6,p{
 	margin: 0;
@@ -22,9 +24,125 @@ ul li a,a{
 /*======================  Start Page  ======================*/
 
 
-.header_area img,
+.top_header_main img,
 .footer_area img {
 	width: 100%;
+}
+
+.top_header_main {
+	background: #0A4D34;
+	padding: 10px 0;
+}
+
+.header_mail ul {
+	display: flex;
+	gap: 25px;
+	align-items: center;
+}
+
+.header_mail ul li a {
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	color: #ececec;
+}
+
+.top_header_content{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header_social ul {
+	display: flex;
+	gap: 15px;
+}
+
+.header_social ul li a {
+	color: #fff;
+	font-size: 12px;
+}
+
+.header_logo_area {
+	background: #F0F0F0;
+}
+
+.logo_left a img {
+	width: 90px;
+}
+
+.logo_center img {
+	width: 310px;
+}
+
+.header_logo_flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 30px 0;
+}
+
+.header_menu {
+	background: #0D6946;
+	padding: 12px 0;
+}
+
+.menu ul {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+
+.menu ul li a {
+	color: #fff;
+	font-size: 14px;
+}
+
+.header_text {
+	background: #269B63;
+}
+
+.header_info p {
+	color: #000; 
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-align: center;
+	padding: 7px 0;
+}
+
+
+/*======= Home Css ============*/
+
+
+.single_home{
+	border-radius: 10px;
+    background: #FFF;
+	padding: 28px 20px;
+}
+
+.home_area{
+	padding: 38px 0 28px 0;
+	background-color: #ECECEC;
+}
+
+.single_home h3 {
+	color: #167447; 
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 15px;
+}
+
+.home_bblogo li a {
+	color: #000; 
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
 }
 
 
