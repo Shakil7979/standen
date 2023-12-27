@@ -145,9 +145,114 @@ ul li a,a{
 	line-height: normal;
 }
 
+.libre_ul li a {
+	width: 88px;
+	height: 88px;
+	border-radius: 25px;
+	background: #167447;
+	display: inline-block;
+	color: #FFF;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.libre_ul {
+	display: flex;
+	gap: 25px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.division_name li {
+	background: #167447;
+	margin-bottom: 12px;
+	padding: 12px;
+	border-radius: 3px;
+}
+
+.division_name li:last-child{ 
+	margin-bottom: 0;
+}
+
+.division_name li a {
+	color: #000; 
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
 
 
 
+
+
+
+/*======================  Footer Css  ======================*/
+
+.footer_area{
+	background: #0A4D34;
+}
+
+.footer_logo a img {
+	width: 235px;
+}
+
+.footer_search button {
+	background: #E40019;
+	border: none;
+	padding: 12px 50px;
+	border-radius: 25px;
+	font-size: 14px;
+	color: #fff;
+}
+
+.footer_search input {
+	border: none;
+	padding: 12px 17px;
+	border-radius: 25px;
+	width: 74%;
+	color: #717171;
+}
+
+.footer_search {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer{
+	padding: 60px 0 35px 0;
+	border-bottom: 1px solid #ddd;
+}
+
+.footer_copy{
+	padding: 40px 0 25px 0;
+}
+
+.footer_copy_text {
+	text-align: end;
+}
+
+.footer_copy_text p {
+	font-size: 14px;
+	color: #ddd;
+}
+
+.footer_social ul {
+	display: flex;
+	align-items: center;
+	gap: 12px; 
+}
+
+.footer_social ul li a, 
+.footer_social ul li p { 
+	color: #ddd;
+	font-size: 14px;
+}
 
 
 /*======================  End Page  ======================*/
