@@ -1,5 +1,6 @@
  
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap');
 
 html{
 	font-size: 62.5%;
@@ -180,7 +181,7 @@ ul li a,a{
 }
 
 .division_name li a {
-	color: #000; 
+	color: #fff; 
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
@@ -255,6 +256,195 @@ ul li a,a{
 }
 
 
-/*======================  End Page  ======================*/
+/*======== Stand ============*/
 
 
+.stand_area{
+	background: #ECECEC ;
+	padding: 78px 0;
+}
+
+.div_name li a {
+	color: #000;
+	font-size: 16px;
+}
+
+.margin_bottom{
+	margin-top: 15px;
+}
+
+.table thead tr th {
+	color: #269B63; 
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.table tbody tr th img {
+	width: 46px;
+	margin-left: 11px;
+}
+
+.extra_menu {
+	background: #269B63;
+}
+
+.extra_menu2{
+	background: #0D6946; 
+}
+
+.ex_menu ul {
+	display: flex;
+	gap: 25px;
+	align-items: center;
+}
+
+.ex_menu ul li a {
+	color: #fff;
+	font-size: 16px;
+	padding: 12px 0;
+	display: inline-block;
+	position: relative;
+}
+
+.table tbody tr td {
+	font-size: 14px;
+}
+
+.ex_menu ul li a img {
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+.single_home h2 {
+	color: #000; 
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-align: center;
+}
+
+.single_programm h3 {
+	color: #167447;
+	font-family: Inter;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin: 0;
+}
+
+.program_header p { 
+	color: #000;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.program_header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+.main_programm {
+	display: flex;
+	justify-content: center;
+	gap: 35px;
+	align-items: center;
+	padding: 35px 0;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.main_programm p {
+	position: relative;
+}
+
+.main_programm p:after {
+	position: absolute;
+	content: '';
+	width: 1px;
+	height: 20px;
+	background-color: #167447;
+	left: 0;
+	right: 0;
+	top: -100%;
+	margin: 0 auto;
+}
+
+.main_programm p:before {
+	position: absolute;
+	content: '';
+	width: 1px;
+	height: 20px;
+	background-color: #167447;
+	left: 0;
+	right: 0;
+	bottom: -100%;
+	margin: 0 auto;
+}
+
+.single_programm {
+	margin-bottom: 25px;
+}
+
+.program_user_main {
+	display: flex;
+	align-items: center;
+	gap: 25px;
+}
+
+.program_user h2 {
+	color: #000;
+	font-family: 'Roboto Slab', serif;
+	font-size: 44px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.program_user h5 {
+	color: #000; 
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.single_home.program_user_main img {
+	width: 132px;
+}
+
+.home_img_row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 55px;
+}
+
+.home_img_row img:first-child,
+.home_img_row img:last-child{
+	flex: 0 0 30%;
+	width: 100%;
+}
+
+.home_img_row img:nth-child(2){
+	flex: 0 0 40%;
+	width: 100%;
+}
+
+/* 
+
+font-family: 'Inter', sans-serif;
+
+font-family: 'Roboto Slab', serif;
+
+ */
