@@ -441,6 +441,75 @@ ul li a,a{
 	width: 100%;
 }
 
+.chart_img img{
+	width: 100%;
+}
+
+.game_header_left h5 {
+	color: #167447;
+	font-family: Inter;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.game_header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.game_main {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.game_footer {
+	margin-top: 83px;
+}
+
+.game_main{
+	margin-top: 68px;
+}
+
+.game_left img {
+	width: 180px;
+}
+
+.game_left {
+	text-align: center;
+}
+
+.game_p p {
+	position: relative;
+}
+
+.game_p p::after {
+	position: absolute;
+	content: '';
+	width: 1px;
+	height: 50px;
+	background-color: #167447;
+	left: 0;
+	right: 0;
+	top: -59px;
+	margin: 0 auto;
+}
+
+.game_p p:before {
+	position: absolute;
+	content: '';
+	width: 1px;
+	height: 50px;
+	background-color: #167447;
+	left: 0;
+	right: 0;
+	bottom: -59px;
+	margin: 0 auto;
+}
+
 /* 
 
 font-family: 'Inter', sans-serif;
