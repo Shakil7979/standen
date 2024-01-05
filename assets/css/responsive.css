@@ -3,17 +3,66 @@
 }
 
 @media all and (max-width: 991px){
-	
+	.team_table {
+        overflow-x: scroll;
+    }
 }
 
 @media all and (max-width: 767px){
-	
+	.footer_search { 
+        flex-direction: column;
+        gap: 11px;
+    }
+    .footer_search input { 
+        width: 100%; 
+    }
+    .footer_social ul { 
+        justify-content: center;
+    }
+    .footer_copy_text {
+        text-align: center;
+        margin-top: 5px;
+    }
+    .program_user_main { 
+        margin-top: 25px;
+    }
+    .program_user h2 {
+        font-size: 28px; 
+    }
+    .program_user h5 { 
+        font-size: 20px; 
+    }
 }
 
 @media all and (max-width: 575px){
-	
+	.logo_left a img {
+        width: 45px;
+    }
+    .stant_tbale {
+        overflow-x: scroll;
+    }
+    .logo_center img {
+        width: 140px;
+    }
+    .game_left img {
+        width: 60px;
+    }
+    .header_social {
+        display: none;
+    }
+    .top_header_content { 
+        justify-content: center;
+    }
+    .header_info p { 
+        font-size: 14px; 
+    }
+    .single_home { 
+        margin-bottom: 25px;
+    }
 }
 
 @media all and (max-width: 450px){
-	
+	.main_programm h4 {
+        display: none;
+    }
 }
