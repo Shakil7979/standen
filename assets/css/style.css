@@ -1,14 +1,15 @@
  
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 html{
 	font-size: 62.5%;
 }
 body{	
 	font-size: 1.6rem; 
-	font-weight: 400;
-	font-family: 'Roboto', sans-serif;
+	font-weight: 400; 
+	font-family: "Poppins", sans-serif;
 }
 h1,h2,h3,h4,h5,h6,p{
 	margin: 0;
@@ -31,7 +32,7 @@ ul li a,a{
 }
 
 .top_header_main {
-	background: #0A4D34;
+	background: #4D9968;
 	padding: 10px 0;
 }
 
@@ -74,7 +75,7 @@ ul li a,a{
 }
 
 .logo_center img {
-	width: 310px;
+	width: 220px;
 }
 
 .header_logo_flex {
@@ -84,9 +85,34 @@ ul li a,a{
 	padding: 30px 0;
 }
 
+.logo a img {
+	width: 65px;
+}
+
 .header_menu {
-	background: #0D6946;
+	background: #4D9968;
 	padding: 12px 0;
+}
+
+.logo_menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.login_btn {
+	background: #fff;
+	color: #000 !important;
+	padding: 8px 25px;
+	border-radius: 6px;
+	border: 1px solid transparent;
+	transition: 0.3s;
+}
+
+.login_btn:hover{
+	border: 1px solid #fff;
+	color: #fff !important;
+	background-color: transparent;
 }
 
 .menu ul {
@@ -97,7 +123,8 @@ ul li a,a{
 
 .menu ul li a {
 	color: #fff;
-	font-size: 14px;
+	font-size: 16px;
+	font-weight: 500;
 }
 
 .header_text {
@@ -105,10 +132,10 @@ ul li a,a{
 }
 
 .header_info p {
-	color: #000; 
+	color: #fff;
 	font-size: 20px;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 700;
 	line-height: normal;
 	text-align: center;
 	padding: 7px 0;
@@ -130,7 +157,7 @@ ul li a,a{
 }
 
 .single_home h3 {
-	color: #167447; 
+	color: #4D9968; 
 	font-size: 32px;
 	font-style: normal;
 	font-weight: 400;
@@ -150,7 +177,7 @@ ul li a,a{
 	width: 88px;
 	height: 88px;
 	border-radius: 25px;
-	background: #167447;
+	background: #4D9968;
 	display: inline-block;
 	color: #FFF;
 	font-size: 40px;
@@ -170,7 +197,7 @@ ul li a,a{
 }
 
 .division_name li {
-	background: #167447;
+	background: #4D9968;
 	margin-bottom: 12px;
 	padding: 12px;
 	border-radius: 3px;
@@ -196,7 +223,7 @@ ul li a,a{
 /*======================  Footer Css  ======================*/
 
 .footer_area{
-	background: #0A4D34;
+	background: #4D9968;
 }
 
 .footer_logo a img {
@@ -291,7 +318,7 @@ ul li a,a{
 }
 
 .extra_menu2{
-	background: #0D6946; 
+	background: #4D9968; 
 }
 
 .ex_menu ul {
@@ -330,8 +357,8 @@ ul li a,a{
 }
 
 .single_programm h3 {
-	color: #167447;
-	font-family: Inter;
+	color: #4D9968;
+	
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 400;
@@ -341,7 +368,7 @@ ul li a,a{
 
 .program_header p { 
 	color: #000;
-	font-family: Inter;
+	
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
@@ -374,7 +401,7 @@ ul li a,a{
 	content: '';
 	width: 1px;
 	height: 20px;
-	background-color: #167447;
+	background-color: #4D9968;
 	left: 0;
 	right: 0;
 	top: -100%;
@@ -386,7 +413,7 @@ ul li a,a{
 	content: '';
 	width: 1px;
 	height: 20px;
-	background-color: #167447;
+	background-color: #4D9968;
 	left: 0;
 	right: 0;
 	bottom: -100%;
@@ -446,8 +473,8 @@ ul li a,a{
 }
 
 .game_header_left h5 {
-	color: #167447;
-	font-family: Inter;
+	color: #4D9968;
+	
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 400;
@@ -491,7 +518,7 @@ ul li a,a{
 	content: '';
 	width: 1px;
 	height: 50px;
-	background-color: #167447;
+	background-color: #4D9968;
 	left: 0;
 	right: 0;
 	top: -59px;
@@ -503,7 +530,7 @@ ul li a,a{
 	content: '';
 	width: 1px;
 	height: 50px;
-	background-color: #167447;
+	background-color: #4D9968;
 	left: 0;
 	right: 0;
 	bottom: -59px;
